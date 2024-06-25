@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: native # By default, its Git and so it expects GitHub, but now it will look in the app itself
+
+server:
+  port: 8088
